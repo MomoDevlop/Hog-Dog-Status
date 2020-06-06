@@ -14,7 +14,7 @@ const Config = {
 
 firebase.initializeApp(Config); // Initialize firebase
 
-let firestore = firebase.firestore(); 
+let firestore = firebase.firestore(); // create a reference
 
 const docRef = firestore.doc("samples/sandwichData"); // Create a link toward the database
 
